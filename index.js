@@ -1,9 +1,6 @@
 module.exports = {
   presets: [
     require('babel-preset-es2015'),
-    require('babel-preset-react')
-  ],
-  plugins: [
-    require('babel-plugin-transform-es2015-template-literals')
+    require('babel-preset-react'),
   ]
 };
